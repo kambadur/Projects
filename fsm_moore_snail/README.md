@@ -6,9 +6,17 @@ This repo contains the source and testbench files in verilog. iverilog is used a
 
 The FSM State Transition Diagram is drawn.
 *   States (circles) are identified.
-*   State transions/inputs (lines) are marked.
+*   State transitions/inputs (lines) are marked.
 *   
 ![](assets/state_transition_diagram_drawio.png)  
 
 #### Moore FSM
 ![](assets/Moore_FSM.png)  
+
+Moore FSM has three components.
+* Next state logic
+* State register
+* Output logic  
+
+Writing FSM verilog could be designed the same way specifiying these three components.  
+ 
