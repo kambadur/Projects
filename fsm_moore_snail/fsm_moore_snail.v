@@ -48,7 +48,7 @@ end
 
 // Output logic
 always @(*) begin
-    smile_out <= (state == S2) ? 1'b1: 1'b0;
+    smile_out = (state == S2) ? 1'b1: 1'b0;
 end
 
 endmodule // end of module fsm_moore_snail

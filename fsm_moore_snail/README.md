@@ -9,3 +9,6 @@ The FSM State Transition Diagram is drawn.
 *   State transions/inputs (lines) are marked.
 *   
 ![](assets/state_transition_diagram_drawio.png)  
+
+#### Moore FSM
+![](assets/Moore_FSM.png)  
