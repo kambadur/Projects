@@ -1,0 +1,10 @@
+# User Constraint File for myStorm BlackIce Mx 
+
+set_io led[1] 55 # B91 L3 Yellow led
+set_io led[2] 56 # B94 cs Red led
+set_io led[0] 52 # B82/GBin4 L1 Green led / S1 button
+
+set_io rst_in 49 # B81/GBin5 L0 Blue led / S2 button
+
+# Onboard 25Mhz oscillator
+set_io clk_in 60
