@@ -22,11 +22,12 @@ initial begin
     //init inputs
     #5 clk = 0;
     d=0;
+    sel=0;
     #3000 $finish;
 end
 
 always #50      clk = ~clk;
-always #50      d = d + 1;
+always #100      d = d + 1;
 always #500     sel = sel + 1;
 
 endmodule
