@@ -1,14 +1,14 @@
 `timescale 1ns/1ps
-`include "fadd3.v"
+`include "fadd32.v"
 
-module tb_fadd3;
-reg [2:0] a, b;
+module tb_fadd32;
+reg [31:0] a, b;
 reg cin;
-wire [2:0] cout;
-wire [3:0] sum;
+wire cout;
+wire [31:0] sum;
 
 //Instantiate
-fadd3 uut(
+fadd32 uut(
     .a(a),
     .b(b),
     .cin(cin),
@@ -18,11 +18,11 @@ fadd3 uut(
 
 //Initialize
 initial begin
-    $dumpfile("tb_fadd3:vcd");
-    $dumpvars(0, tb_fadd3);
+    $dumpfile("tb_fadd32.vcd");
+    $dumpvars(0, tb_fadd32);
 
-    #25 a = 7;
-    b= 6;
+    #25 a = 243;
+    b= 129;
     cin = 0;
     #50 cin = 1;
     #100 $finish;
