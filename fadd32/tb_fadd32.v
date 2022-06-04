@@ -21,7 +21,7 @@ initial begin
     $dumpfile("tb_fadd32.vcd");
     $dumpvars(0, tb_fadd32);
 
-    #25 a = 243;
+    #25 a = 897;
     b= 129;
     cin = 0;
     #50 cin = 1;
