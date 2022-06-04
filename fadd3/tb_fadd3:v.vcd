@@ -1,5 +1,5 @@
 $date
-	Sat Jun  4 04:10:51 2022
+	Sat Jun  4 04:36:01 2022
 $end
 $version
 	Icarus Verilog
@@ -8,7 +8,7 @@ $timescale
 	1ps
 $end
 $scope module tb_fadd3 $end
-$var wire 3 ! sum [2:0] $end
+$var wire 4 ! sum [3:0] $end
 $var wire 3 " cout [2:0] $end
 $var reg 3 # a [2:0] $end
 $var reg 3 $ b [2:0] $end
@@ -17,7 +17,7 @@ $scope module uut $end
 $var wire 3 & a [2:0] $end
 $var wire 3 ' b [2:0] $end
 $var wire 1 % cin $end
-$var wire 3 ( sum [2:0] $end
+$var wire 4 ( sum [3:0] $end
 $var wire 3 ) cout [2:0] $end
 $scope module fadd_1 $end
 $var wire 1 * a $end
@@ -79,8 +79,8 @@ $end
 b110 "
 b110 )
 0,
-b101 !
-b101 (
+b1101 !
+b1101 (
 1-
 0+
 1/
@@ -99,8 +99,8 @@ b111 &
 b111 "
 b111 )
 1,
-b110 !
-b110 (
+b1110 !
+b1110 (
 0-
 1%
 #175000

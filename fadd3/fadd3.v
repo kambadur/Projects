@@ -3,7 +3,7 @@ module fadd3(
     input [2:0] a, b,
     input cin,
     output [2:0] cout,
-    output [2:0] sum 
+    output [3:0] sum 
 );
 /*
     fadd fadd_1(a, b, cin, sum[0], cout[0]);
@@ -34,5 +34,6 @@ module fadd3(
         .cout(cout[2]),
         .sum(sum[2])
     );
+assign sum[3] = cout[2];
 
 endmodule

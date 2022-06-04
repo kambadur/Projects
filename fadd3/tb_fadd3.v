@@ -5,7 +5,7 @@ module tb_fadd3;
 reg [2:0] a, b;
 reg cin;
 wire [2:0] cout;
-wire [2:0] sum;
+wire [3:0] sum;
 
 //Instantiate
 fadd3 uut(
