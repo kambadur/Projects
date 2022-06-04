@@ -24,6 +24,7 @@ initial begin
     #25 a = 7;
     b= 6;
     cin = 0;
+    #50 cin = 1;
     #100 $finish;
 end
 
