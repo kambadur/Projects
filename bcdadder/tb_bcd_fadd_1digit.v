@@ -1,7 +1,8 @@
 `timescale 1ns/1ps
 `include "bcd_fadd_1digit.v"
+//`include "../fadd/fadd.v"
 
-module tb_bcd_fadd_1digit.v;
+module tb_bcd_fadd_1digit;
 reg [3:0] a, b;
 reg cin;
 wire cout;
@@ -19,7 +20,7 @@ bcd_fadd_1digit uut(
 //Initialize
 initial begin
     $dumpfile("tb_bcd_fadd_1digit.vcd");
-    $dumpvars(0. tb_bcd_fadd_1digit);
+    $dumpvars(0, tb_bcd_fadd_1digit);
 
     a= 0;
     b=0;
@@ -27,5 +28,10 @@ initial begin
     #2000 $finish;
 end
 
-always #50  
+always #50  a = a + 2;
+always #50  b = b + 2;
+always #1000 cin = 1;
+always #1100 cin = 0;
+
+endmodule
 
