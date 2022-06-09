@@ -9,3 +9,8 @@ Verified in iVerilog and GTKWave.
 If the binary addition is greater than 9d, then 6d is added to it (binary sum) to get the BCD sum.  
 
 ![](assets/bcd_fadd_1digit.png)  
+
+
+Useful resources:  
+https://www.geeksforgeeks.org/bcd-adder-in-digital-logic/  
+https://hdlbits.01xz.net/wiki/Bcdadd4  
