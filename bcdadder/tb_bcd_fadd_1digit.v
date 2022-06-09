@@ -28,8 +28,8 @@ initial begin
     #2000 $finish;
 end
 
-always #50  a = a + 2;
-always #50  b = b + 2;
+always #50  if(a>=9) a=0; else a=a+1;
+always #75  if(b>=9) b=0; else b=b+1;
 always #1000 cin = 1;
 always #1100 cin = 0;
 

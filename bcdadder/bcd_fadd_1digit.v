@@ -27,7 +27,7 @@ always @(*) begin
     end
     else begin
         sum = sum_binAdd;
-        cout = cout_binAdd;
+        cout = cout_binAdd[3];
     end
 end
     
