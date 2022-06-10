@@ -1,3 +1,4 @@
+`default_nettype none
 `include "../fadd/fadd.v"
 
 module bcd_fadd_1digit (
