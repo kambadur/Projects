@@ -20,3 +20,11 @@ Double click on the simulink white canvas and start typing the keyword you are l
    4. Opening the data logger to view simulation results gives lots of possibilities for analysis, plot them into desired layouts, import, export, compare between various simulation runs etc.  
    ![](assets/datalogger_2.png)  
 
+4. Update model:  'Ctrl + D' is something I use very frequently. This is update model which shows error and warnings if any before running simulation. 
+
+5. Show data types: This is another useful feature if you are dealing with different datatypes in your model. This is relavant if you have datatypes other than double (default matlab datatype for simulations). If you are for example intending to do code generation and have prepared your model with single/ double precision floating point datatypes or if you have fixed-point datatypes or booleans etc, this will help a lot to see them at the input and output of the blocks.  
+![](assets/port_datatypes.png)  
+![](assets/port_datatypes_1.png)  
+Note that in newer versions, this option would be located at a different location.  
+
+
