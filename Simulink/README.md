@@ -1,6 +1,6 @@
 #### Simulink tips
 
-1. Search: searching for block if the name is known
+1. Search: searching for block if the name is known.  
 For example: swicth block.  
 Double click on the simulink white canvas and start typing the keyword you are looking for-->'switch'  
 ![](assets/search.png)  
