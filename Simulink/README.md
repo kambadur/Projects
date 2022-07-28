@@ -27,4 +27,15 @@ Double click on the simulink white canvas and start typing the keyword you are l
 ![](assets/port_datatypes_1.png)  
 Note that in newer versions, this option would be located at a different location.  
 
+6. Add block:  Modifying the input ports of the Add block as needed without rotating it can be done as below. The first input port always starts from the top. Then further inputs are assigned in counter-clockwise direction.  
+![](assets/add_1.png)
+Rectangular / Round shape can be selected here.  
+![](assets/add_2.png)
+By default the two input ports are shown as below.  
+Inserting a 'pipe' in the front will create an empty space at the top.  
+![](assets/add_3.png)  
+If a - port to be inserted at the top, the 'pipe' can be replaved with '-'. Similary you canplay around with the location of the 'pipe' symbol to move your input ports. You can add more pipes as desired.  
+![](assets/add_4.png)  
+
+
 
