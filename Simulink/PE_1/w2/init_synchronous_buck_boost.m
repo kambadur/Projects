@@ -21,7 +21,7 @@ Vin = 5;   %Input voltage
 Tsw = 1e-6;   % pwm switching time period
 V_up = 10;  % ramp peak voltage
 V_b = 0;    % ramp base voltage
-Vref = 3;    %ref output voltage
+Vref = 4;    %ref output voltage
 Vmax=10;
 
 Ts = 10e-9;     % Model fixed-step size
