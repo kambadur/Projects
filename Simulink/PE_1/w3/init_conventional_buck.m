@@ -7,7 +7,7 @@ R = 0.5;          %Load resistance in Ohm
 r_L = 10e-3;      %inductor resistance in Ohm
 r_C = 5e-3;       %capacitor esr
 i_L_init=1;     %initial iL
-v_C_init=3.4;     %initial vC
+v_C_init=3.6;     %initial vC
 
 %Switch parameter
 rds_on_sw1 = 5e-3;  % high side mosfet rds on
