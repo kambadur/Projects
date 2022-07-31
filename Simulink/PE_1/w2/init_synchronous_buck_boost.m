@@ -24,5 +24,7 @@ V_b = 0;    % ramp base voltage
 Vref = 3;    %ref output voltage
 Vmax=10;
 
+Ts = 10e-9;     % Model fixed-step size
+
 
 
