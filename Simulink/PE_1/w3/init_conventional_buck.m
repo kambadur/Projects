@@ -27,6 +27,9 @@ Vmax=10;    % V_up and Vmax are redundant
 
 Tsw = 1e-6;   % pwm switching time period
 Ts = 10e-9;     % Model fixed-step size
+T_on = (Vref/Vin)*Tsw;
+T_off_min = T_on/10;
+
 
 
 

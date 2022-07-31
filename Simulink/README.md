@@ -1,4 +1,9 @@
-#### Simulink tips
+#### Power Electronics and Control from Prof. Kapat (IIT Kharagpur)
+This repo contains some lecture notes, simulation models from the lectures from Prof. Kapat.
+https://onlinecourses.nptel.ac.in/noc22_ee100/preview  
+https://onlinecourses.nptel.ac.in/noc22_ee124/preview  
+
+##### Simulink tips
 
 1. Search: searching for block if the name is known.  
 For example: swicth block.  
@@ -37,5 +42,7 @@ Inserting a 'pipe' in the front will create an empty space at the top.
 If a - port to be inserted at the top, the 'pipe' can be replaved with '-'. Similary you canplay around with the location of the 'pipe' symbol to move your input ports. You can add more pipes as desired.  
 ![](assets/add_4.png)  
 
+7. Model properties: Callbacks  
+Callbacks can be used to call your matlab code/ m-files. For example 
 
 
