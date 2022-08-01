@@ -50,5 +50,7 @@ For example, to execute an .m file before starting simulation, StartFcn callback
 
 Note: Having algbraic loops in the model that is referenced, will no longer be considered as a warning. It is an error. Solve the algebraic loops before referencing it in other models.  
 
-
+9. Matlab command open_system('<model_name>'); to open the model.  
+10. sim('<model_name>'); to run the model.  
+11. 
 
