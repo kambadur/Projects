@@ -43,6 +43,12 @@ If a - port to be inserted at the top, the 'pipe' can be replaved with '-'. Simi
 ![](assets/add_4.png)  
 
 7. Model properties: Callbacks  
-Callbacks can be used to call your matlab code/ m-files. For example 
+Callbacks can be used to call your matlab code/ m-files in various phases of your model open, execute, start, stop, close etc. instants.  
+For example, to execute an .m file before starting simulation, StartFcn callback can be used. Similarly InitFcn, CloseFcn, StopFcn events can be used to initiate desried callbacks.  
+
+8. Model refrencing:  This is similar to having a functionality written in a file. The function can be called upon need which has been residing in that file. Any other file or function can call this function. If the funtionality has to be changed, it is needed to be changed only at one location and it is reflected globally.Similary simulink models can be handled. A model can be called / referenced inside models.  This brings lots of advantages.  
+
+Note: Having algbraic loops in the model that is referenced, will no longer be considered as a warning. It is an error. Solve the algebraic loops before referencing it in other models.  
+
 
 
