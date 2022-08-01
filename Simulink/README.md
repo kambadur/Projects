@@ -1,5 +1,5 @@
 #### Power Electronics and Control from Prof. Kapat (IIT Kharagpur)
-This repo contains some lecture notes, simulation models from the lectures of Prof. Kapat.
+This repo contains some lecture notes, simulation models from the lectures of Prof. Kapat.  
 PE_1: https://onlinecourses.nptel.ac.in/noc22_ee100/preview  
 PE_2: https://onlinecourses.nptel.ac.in/noc22_ee124/preview  
 
