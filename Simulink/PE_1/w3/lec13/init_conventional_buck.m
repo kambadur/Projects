@@ -30,6 +30,6 @@ Ts = 10e-9;     % Model fixed-step size
 Ton = (Vref/Vin)*Tsw;
 Toff_min = Ton/10;
 
-
-
+IL_transient_en = 0; % load current transient enable
+DCM_en = 1;
 
