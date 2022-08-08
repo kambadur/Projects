@@ -31,7 +31,9 @@ Ts = 10e-9;     % Model fixed-step size
 Ton = (Vref/Vin)*Tsw;
 Toff_min = Ton/10;
 
-Vref_switch = 0;    % switch to turn on Vref transient change
+Vff = 1/Vin;    % feed-forward voltage gain
+
+Vref_switch = 1;    % switch to turn on Vref transient change
 IL_transient_en = 0; % load current transient enable
 DCM_en = 1;         % discontinuous conduction mode enable
 ideal_psu_en = 0;       % selection between ideal and practical voltage sources
