@@ -34,6 +34,7 @@ Toff_min = Ton/10;
 Vref_switch = 0;    % switch to turn on Vref transient change
 IL_transient_en = 0; % load current transient enable
 DCM_en = 1;         % discontinuous conduction mode enable
-ideal_en = 0;       % selection between ideal and practical voltage sources
+ideal_psu_en = 0;       % selection between ideal and practical voltage sources
 input_volt_trans_en = 1;    % input voltage disturbance enable (after 1.7ms input voltage dropped by 4V)
+Vff_en = 1;         % input voltage feed forward switch for duty cycle adaptation
 
