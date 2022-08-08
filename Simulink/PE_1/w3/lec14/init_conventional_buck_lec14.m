@@ -37,6 +37,11 @@ Vref_switch = 1;    % switch to turn on Vref transient change
 I0_transient_en = 1; % load current transient enable
 DCM_en = 0;         % discontinuous conduction mode enable
 ideal_psu_en = 0;       % selection between ideal and practical voltage sources
-input_volt_trans_en = 0;    % input voltage disturbance enable (after 1.7ms input voltage dropped by 4V)
-Vff_en = 0;         % input voltage feed forward switch for duty cycle adaptation
+input_volt_trans_en = 1;    % input voltage disturbance enable (after 1.7ms input voltage dropped by 4V)
+Vff_en = 1;         % input voltage feed forward switch for duty cycle adaptation
 
+% PID parameters
+Kp = 30;
+Ki = 20000;
+Kd = 0.04;
+N = 1000;
