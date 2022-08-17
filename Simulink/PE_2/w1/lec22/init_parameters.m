@@ -54,7 +54,7 @@ Vref_final = 0;
 % PID parameters
 Kp = 10;
 Ki = 50000;
-Kd = 0.5*C;
+Kd = 0.1*C;
 N = 1000;
 tau_d = Tsw/5;
 %Analog control
@@ -66,3 +66,6 @@ den_con = [tau_d 1 0];
 num_con = [Kd+(Kp*tau_d) Kp+(Ki*tau_d) Ki];
 den_con = [tau_d 1 0];
 %Gc=tf(num_con, den_con);
+
+%ADC conversion delay
+t_s = 0.9*Tsw;  %this sample is used in the next switching cycle
