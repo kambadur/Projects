@@ -60,9 +60,9 @@ tau_d = Tsw/5;
 %Analog control
 num_con = [Kd+(Kp*tau_d) Kp+(Ki*tau_d) Ki];
 den_con = [tau_d 1 0];
-Gc=tf(num_con, den_con);
+%Gc=tf(num_con, den_con);
 
 %Digital control
 num_con = [Kd+(Kp*tau_d) Kp+(Ki*tau_d) Ki];
 den_con = [tau_d 1 0];
-Gc=tf(num_con, den_con);
+%Gc=tf(num_con, den_con);
