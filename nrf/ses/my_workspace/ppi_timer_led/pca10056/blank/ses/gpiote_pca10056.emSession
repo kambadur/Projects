@@ -1,0 +1,49 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints"/>
+ <ExecutionProfileWindow/>
+ <FrameBuffer/>
+ <Memory1/>
+ <Memory2/>
+ <Memory3/>
+ <Memory4/>
+ <Project>
+  <ProjectSessionItem path="ppi_timer_led_pca10056"/>
+  <ProjectSessionItem path="ppi_timer_led_pca10056;ppi_timer_led_pca10056"/>
+ </Project>
+ <Register1/>
+ <Register2/>
+ <Register3/>
+ <Register4/>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="14" y="74" useTextEdit="1" path="../../../main.c" left="0" top="31" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="2" y="94" useTextEdit="1" openedFrom="C:/ncs/nRF5SDK160098a08e2/examples/my_workspace/gpiote/main.c" path="../../../../../../modules/nrfx/hal/nrf_ppi.h" left="0" top="57" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="120" useTextEdit="1" openedFrom="C:/ncs/nRF5SDK160098a08e2/examples/my_workspace/gpiote/main.c" path="../../../../../../modules/nrfx/drivers/include/nrfx_ppi.h" left="0" top="98" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="19" y="287" useTextEdit="1" openedFrom="C:/ncs/nRF5SDK160098a08e2/examples/my_workspace/gpiote/main.c" path="../../../../../../integration/nrfx/nrfx_glue.h" left="0" top="268" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="23" y="219" useTextEdit="1" openedFrom="C:/ncs/nRF5SDK160098a08e2/examples/my_workspace/gpiote/main.c" path="../../../../../../modules/nrfx/drivers/include/nrfx_gpiote.h" left="0" top="197" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="34" y="139" useTextEdit="1" openedFrom="C:/ncs/nRF5SDK160098a08e2/examples/my_workspace/gpiote/main.c" path="../../../../../../modules/nrfx/drivers/include/nrfx_timer.h" left="0" top="98" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="24" y="144" useTextEdit="1" openedFrom="C:/ncs/nRF5SDK160098a08e2/modules/nrfx/drivers/include/nrfx_timer.h" path="../../../../../../modules/nrfx/hal/nrf_timer.h" left="0" top="132" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="231" useTextEdit="1" path="../../../../../../modules/nrfx/drivers/src/nrfx_gpiote.c" left="0" top="229" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="39" y="2" useTextEdit="1" path="gpiote_pca10056.emProject" left="0" selected="1" top="0" codecName="Default"/>
+ </Files>
+ <EMStudioWindow activeProject="ppi_timer_led_pca10056" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>
