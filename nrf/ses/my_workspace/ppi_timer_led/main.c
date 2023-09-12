@@ -106,7 +106,7 @@ void gpiote_init()
   uint32_t err_code = NRF_SUCCESS;
 
   //configure gpiote out task
-  nrfx_gpiote_out_config_t out_config = NRFX_GPIOTE_CONFIG_OUT_TASK_TOGGLE(NRF_GPIOTE_INITIAL_VALUE_HIGH); //out task to toggle the pin state
+  nrfx_gpiote_out_config_t out_config = NRFX_GPIOTE_CONFIG_OUT_TASK_TOGGLE(true); //out task to toggle the pin state
 
   //Initialize gpiote modlue
   err_code = nrfx_gpiote_init();
