@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/carbon/Downloads/spi_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/carbon/Downloads/spi_controller_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_controller
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'spi_controller' [/home/carbon/Downloads/spi_controller.v:5]
+INFO: [VRFC 10-311] analyzing module spi_controller_tb

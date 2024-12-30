@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/carbon/Downloads/spi_controller.v,1735474740,verilog,,/home/carbon/Downloads/spi_controller_tb.v,,spi_controller,,,,,,,,
+/home/carbon/Downloads/spi_controller_tb.v,1735473317,verilog,,,/home/carbon/Downloads/spi_controller.v,spi_controller_tb,,,,,,,,
+/home/carbon/kambadur/Projects/Vivado/spi_controller/spi_controller.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,

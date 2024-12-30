@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Dec 30 02:16:45 2024
+# Process ID         : 154640
+# Current directory  : /home/carbon/kambadur/Projects/Vivado/spi_controller/spi_controller.runs/synth_1
+# Command line       : vivado -log spi_controller.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source spi_controller.tcl
+# Log file           : /home/carbon/kambadur/Projects/Vivado/spi_controller/spi_controller.runs/synth_1/spi_controller.vds
+# Journal file       : /home/carbon/kambadur/Projects/Vivado/spi_controller/spi_controller.runs/synth_1/vivado.jou
+# Running On         : carbon
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.1 LTS
+# Processor Detail   : Intel(R) Core(TM) i5-4210M CPU @ 2.60GHz
+# CPU Frequency      : 3110.480 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 16444 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 20739 MB
+# Available Virtual  : 11481 MB
+#-----------------------------------------------------------
+source spi_controller.tcl -notrace
