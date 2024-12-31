@@ -4,8 +4,8 @@ Datasheet: [AD7303](https://www.analog.com/media/en/technical-documentation/data
 ##### Background:
 I would like to walkthrough how I have put this RTL design up for SPI Master controller to be able to speak to AD7303 8-bit DAC peripheral.  
 The chip is part of PMOD DA1, that offers two digital outputs. 
-From the datasheet we can see that the serail data is sampled on the rising edge of the clock. In the desgined SPI Controller we shift the data on negative edge of the clock.
-Hence we go with CPOL 0 and CPHA 0.
+
+From the datasheet we can see that the serail data is sampled on the rising edge of the clock. In the desgined SPI Controller we shift the data on negative edge of the clock. Hence we go with CPOL 0 and CPHA 0.
 RTL design and testbench are done in Verilog.  
 
 Reading through the textbook "Verilog By Example" by Blaine C. Readler and lectures from Prof. Adi Teman [1], I have understood desiging a FSM is probably more clean and modular way to structure the HDL design, that could be later easier to debug, maintain and enhance. 
