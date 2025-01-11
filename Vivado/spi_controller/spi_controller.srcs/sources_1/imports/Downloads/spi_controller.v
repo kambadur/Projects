@@ -81,6 +81,7 @@ module spi_controller(
 						state_reg <= shift_state;	// stay here
 					end
 				end
+				default: state_reg <= idle_state;
 			endcase
 		end
 	end
