@@ -84,11 +84,8 @@ module i2c_controller_mcp4725(
         end
         else begin
             if(clk_div_counter >= CLKDIV) begin
-                if(state_reg != start_state && state_reg != stop_state) begin
                     scl <= ~scl;
                     clk_div_counter <= 16'd0;
-                 end
-                else clk_div_counter <= 16'd0;
             end
             else clk_div_counter <= clk_div_counter + 16'd1;
         end
@@ -172,7 +169,7 @@ module i2c_controller_mcp4725(
         if (reset) begin
             state_reg <= idle_state;
         end
-        else if (clk_div_counter == SCL_SETUP_DLY) begin  // Allow state transition only when scl is low and setup times have met
+        else if ((clk_div_counter == SCL_SETUP_DLY) && (scl == 1'b1)) begin  // Allow state transition only when scl is low and setup times have met
             case (state_reg)
                 idle_state: begin
                     bus_idle_counter <= 8'd0;
@@ -188,7 +185,7 @@ module i2c_controller_mcp4725(
                     state_reg <= bus_idle_state;
                 end
                 bus_idle_state: begin
-                    if (bus_idle_counter == 8'd100) begin
+                    if (bus_idle_counter == 8'd5) begin
                         bus_idle_counter <= 8'd0;
                         state_reg <= start_state;
                     end
