@@ -5,8 +5,8 @@
 module spi_controller_100_tb();
 	reg clk;					// FPGA clock
 	reg nreset;				// Reset line
-	reg [7:0] control;	// 8-bit control byte
-	reg [7:0] data;		// 8-bit data byte
+	//reg [7:0] control;	// 8-bit control byte
+	//reg [7:0] data;		// 8-bit data byte
 	reg start;				// start command
 	wire sclk;			// derived SPI clock
 	wire nCS;				// chipselect
@@ -17,8 +17,8 @@ module spi_controller_100_tb();
 	spi_controller uut0(
 		.clk(clk),
 		.nreset(nreset),
-		.control(control),
-		.data(data),
+		//.control(control),
+		//.data(data),
 		.start(start),
 		.sclk(sclk),
 		.nCS(nCS),
