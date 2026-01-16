@@ -1,0 +1,35 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.82319",
+   "Default View_TopLeft":"10,-15",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 6 -x 1460 -y 50 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 6 -x 1460 -y 80 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 440 -y 140 -defaultsOSRD
+preplace inst myip_spi_controller_0 -pg 1 -lvl 4 -x 1090 -y 200 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 3 -x 800 -y 180 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 2 -x 440 -y 420 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 1 -x 130 -y 150 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 5 -x 1350 -y 180 -defaultsOSRD
+preplace netloc myip_spi_controller_0_cmd_clear_start 1 0 5 20 310 NJ 310 NJ 310 NJ 310 1260
+preplace netloc myip_spi_controller_0_done 1 0 5 30 300 NJ 300 NJ 300 NJ 300 1240
+preplace netloc myip_spi_controller_0_sclk 1 4 1 1230 160n
+preplace netloc processing_system7_0_FCLK_CLK0 1 1 4 230 280 650 100 940 90 1260
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 2 240 320 640
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 2 3 660 260 950 100 1250
+preplace netloc xlconcat_0_dout 1 1 1 N 150
+preplace netloc axi_smc_M00_AXI 1 3 1 N 180
+preplace netloc processing_system7_0_DDR 1 2 4 NJ 60 NJ 60 NJ 60 1440J
+preplace netloc processing_system7_0_FIXED_IO 1 2 4 NJ 80 NJ 80 NJ 80 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 1 660 120n
+levelinfo -pg 1 0 130 440 800 1090 1350 1460
+pagesize -pg 1 -db -bbox -sgen 0 0 1570 520
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_clkrst_cnt":"1",
+   "da_ps7_cnt":"1"
+}

@@ -1,0 +1,4 @@
+create libxil.a
+addlib /home/carbon/kambadur/Projects/Vivado/mb_uart/platform_mb_uart/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/uartlite/src/libuartlite.a
+save
+end

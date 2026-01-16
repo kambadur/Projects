@@ -1,0 +1,373 @@
+
+*** Running vivado
+    with args -log mb_uart_ilmb_bram_if_cntlr_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_uart_ilmb_bram_if_cntlr_0.tcl
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Thu Jan  2 14:30:44 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source mb_uart_ilmb_bram_if_cntlr_0.tcl -notrace
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mb_uart_ilmb_bram_if_cntlr_0
+Command: synth_design -top mb_uart_ilmb_bram_if_cntlr_0 -part xc7a100tcsg324-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1880949
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1910.566 ; gain = 418.828 ; free physical = 272 ; free virtual = 3731
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mb_uart_ilmb_bram_if_cntlr_0' [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ip/mb_uart_ilmb_bram_if_cntlr_0/synth/mb_uart_ilmb_bram_if_cntlr_0.vhd:84]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_HIGHADDR bound to: 64'b0000000000000000000000000000000000000000000000000011111111111111 
+	Parameter C_BASEADDR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_NUM_LMB bound to: 1 - type: integer 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_MASK1 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK2 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK3 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK4 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK5 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK6 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK7 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_ARBITRATION bound to: 0 - type: integer 
+	Parameter C_ECC bound to: 0 - type: integer 
+	Parameter C_INTERCONNECT bound to: 0 - type: integer 
+	Parameter C_FAULT_INJECT bound to: 0 - type: integer 
+	Parameter C_CE_FAILING_REGISTERS bound to: 0 - type: integer 
+	Parameter C_UE_FAILING_REGISTERS bound to: 0 - type: integer 
+	Parameter C_ECC_STATUS_REGISTERS bound to: 0 - type: integer 
+	Parameter C_ECC_ONOFF_REGISTER bound to: 0 - type: integer 
+	Parameter C_ECC_ONOFF_RESET_VALUE bound to: 1 - type: integer 
+	Parameter C_CE_COUNTER_WIDTH bound to: 0 - type: integer 
+	Parameter C_WRITE_ACCESS bound to: 2 - type: integer 
+	Parameter C_BRAM_AWIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_CTRL_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_CTRL_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'lmb_bram_if_cntlr' declared at '/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ipshared/73e9/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:5040' bound to instance 'U0' of component 'lmb_bram_if_cntlr' [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ip/mb_uart_ilmb_bram_if_cntlr_0/synth/mb_uart_ilmb_bram_if_cntlr_0.vhd:280]
+INFO: [Synth 8-638] synthesizing module 'lmb_bram_if_cntlr' [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ipshared/73e9/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:5222]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter C_BASEADDR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_MASK1 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK2 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK3 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK4 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK5 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK6 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK7 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_ECC_WIDTH bound to: 7 - type: integer 
+	Parameter C_ECC bound to: 0 - type: integer 
+	Parameter C_NUM_LMB bound to: 1 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_ARBITRATION bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'lmb_mux' declared at '/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ipshared/73e9/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4146' bound to instance 'lmb_mux_I' of component 'lmb_mux' [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ipshared/73e9/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:5548]
+INFO: [Synth 8-638] synthesizing module 'lmb_mux' [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ipshared/73e9/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4291]
+	Parameter C_AW bound to: 32 - type: integer 
+	Parameter C_BAR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-3491] module 'pselect_mask' declared at '/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ipshared/73e9/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3470' bound to instance 'pselect_mask_lmb' of component 'pselect_mask' [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ipshared/73e9/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4404]
+INFO: [Synth 8-638] synthesizing module 'pselect_mask' [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ipshared/73e9/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3485]
+INFO: [Synth 8-256] done synthesizing module 'pselect_mask' (0#1) [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ipshared/73e9/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3485]
+INFO: [Synth 8-256] done synthesizing module 'lmb_mux' (0#1) [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ipshared/73e9/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4291]
+INFO: [Synth 8-256] done synthesizing module 'lmb_bram_if_cntlr' (0#1) [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ipshared/73e9/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:5222]
+INFO: [Synth 8-256] done synthesizing module 'mb_uart_ilmb_bram_if_cntlr_0' (0#1) [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ip/mb_uart_ilmb_bram_if_cntlr_0/synth/mb_uart_ilmb_bram_if_cntlr_0.vhd:84]
+WARNING: [Synth 8-7129] Port A[0] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[1] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[2] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[3] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[4] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[5] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[6] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[7] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[8] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[9] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[10] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[12] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[13] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[14] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[15] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[16] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[17] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[18] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[19] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[20] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[21] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[22] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[23] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[24] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[25] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[26] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[27] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[28] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[29] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[30] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[31] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB_Clk in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB_Rst in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[0] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[1] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[2] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[3] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[4] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[5] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[6] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[7] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[8] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[9] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[10] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[11] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[12] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[13] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[14] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[15] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[16] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[17] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[18] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[19] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[20] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[21] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[22] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[23] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[24] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[25] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[26] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[27] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[28] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[29] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[30] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[31] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[0] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[1] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[2] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[3] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[4] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[5] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[6] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[7] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[8] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[9] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[10] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[11] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[12] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[13] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[14] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[15] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[16] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[17] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[18] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[19] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[20] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[21] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[22] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[23] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[24] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[25] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[26] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[27] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[28] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[29] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[30] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[31] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_AddrStrobe in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ReadStrobe in module lmb_mux is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1990.504 ; gain = 498.766 ; free physical = 166 ; free virtual = 3631
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2008.316 ; gain = 516.578 ; free physical = 165 ; free virtual = 3632
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2008.316 ; gain = 516.578 ; free physical = 165 ; free virtual = 3632
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2008.316 ; gain = 0.000 ; free physical = 165 ; free virtual = 3632
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ip/mb_uart_ilmb_bram_if_cntlr_0/mb_uart_ilmb_bram_if_cntlr_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ip/mb_uart_ilmb_bram_if_cntlr_0/mb_uart_ilmb_bram_if_cntlr_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.runs/mb_uart_ilmb_bram_if_cntlr_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.runs/mb_uart_ilmb_bram_if_cntlr_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2106.066 ; gain = 0.000 ; free physical = 199 ; free virtual = 3588
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2106.066 ; gain = 0.000 ; free physical = 199 ; free virtual = 3587
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 2106.066 ; gain = 614.328 ; free physical = 1206 ; free virtual = 4623
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 2114.070 ; gain = 622.332 ; free physical = 1206 ; free virtual = 4623
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.runs/mb_uart_ilmb_bram_if_cntlr_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 2114.070 ; gain = 622.332 ; free physical = 1206 ; free virtual = 4623
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 2114.070 ; gain = 622.332 ; free physical = 1202 ; free virtual = 4622
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 2114.070 ; gain = 622.332 ; free physical = 1067 ; free virtual = 4491
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 2172.070 ; gain = 680.332 ; free physical = 478 ; free virtual = 3874
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 2172.070 ; gain = 680.332 ; free physical = 470 ; free virtual = 3866
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 2182.086 ; gain = 690.348 ; free physical = 454 ; free virtual = 3850
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 2351.898 ; gain = 860.160 ; free physical = 232 ; free virtual = 3589
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 2351.898 ; gain = 860.160 ; free physical = 232 ; free virtual = 3589
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 2351.898 ; gain = 860.160 ; free physical = 232 ; free virtual = 3589
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 2351.898 ; gain = 860.160 ; free physical = 232 ; free virtual = 3589
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 2351.898 ; gain = 860.160 ; free physical = 232 ; free virtual = 3589
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 2351.898 ; gain = 860.160 ; free physical = 232 ; free virtual = 3589
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |     6|
+|3     |FDRE |     2|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 2351.898 ; gain = 860.160 ; free physical = 232 ; free virtual = 3589
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 606 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 2351.898 ; gain = 762.410 ; free physical = 232 ; free virtual = 3589
+Synthesis Optimization Complete : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 2351.906 ; gain = 860.160 ; free physical = 232 ; free virtual = 3589
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2351.906 ; gain = 0.000 ; free physical = 232 ; free virtual = 3589
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2407.926 ; gain = 0.000 ; free physical = 281 ; free virtual = 3639
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 32377274
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:48 ; elapsed = 00:00:48 . Memory (MB): peak = 2407.926 ; gain = 1040.668 ; free physical = 281 ; free virtual = 3639
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1642.061; main = 1472.251; forked = 293.441
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3222.473; main = 2407.930; forked = 942.383
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2431.938 ; gain = 0.000 ; free physical = 281 ; free virtual = 3639
+INFO: [Common 17-1381] The checkpoint '/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.runs/mb_uart_ilmb_bram_if_cntlr_0_synth_1/mb_uart_ilmb_bram_if_cntlr_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP mb_uart_ilmb_bram_if_cntlr_0, cache-ID = cd94f2b48e7dd86f
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2431.938 ; gain = 0.000 ; free physical = 266 ; free virtual = 3624
+INFO: [Common 17-1381] The checkpoint '/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.runs/mb_uart_ilmb_bram_if_cntlr_0_synth_1/mb_uart_ilmb_bram_if_cntlr_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file mb_uart_ilmb_bram_if_cntlr_0_utilization_synth.rpt -pb mb_uart_ilmb_bram_if_cntlr_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Jan  2 14:31:46 2025...

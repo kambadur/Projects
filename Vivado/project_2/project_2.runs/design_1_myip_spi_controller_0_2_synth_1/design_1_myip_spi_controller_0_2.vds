@@ -1,0 +1,336 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun Feb  2 07:13:50 2025
+# Process ID         : 2024226
+# Current directory  : /home/carbon/kambadur/Projects/Vivado/project_2/project_2.runs/design_1_myip_spi_controller_0_2_synth_1
+# Command line       : vivado -log design_1_myip_spi_controller_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_myip_spi_controller_0_2.tcl
+# Log file           : /home/carbon/kambadur/Projects/Vivado/project_2/project_2.runs/design_1_myip_spi_controller_0_2_synth_1/design_1_myip_spi_controller_0_2.vds
+# Journal file       : /home/carbon/kambadur/Projects/Vivado/project_2/project_2.runs/design_1_myip_spi_controller_0_2_synth_1/vivado.jou
+# Running On         : carbon
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.1 LTS
+# Processor Detail   : Intel(R) Core(TM) i5-4210M CPU @ 2.60GHz
+# CPU Frequency      : 3172.434 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 16444 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 20739 MB
+# Available Virtual  : 16148 MB
+#-----------------------------------------------------------
+source design_1_myip_spi_controller_0_2.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/carbon/kambadur/Projects/Vivado/ip_repo/myip_spi_controller_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/carbon/kambadur/Projects/Vivado/ip_repo/myip_pattern_recognition_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_myip_spi_controller_0_2
+Command: synth_design -top design_1_myip_spi_controller_0_2 -part xc7z020clg484-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2024320
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1950.766 ; gain = 421.797 ; free physical = 6248 ; free virtual = 14227
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_myip_spi_controller_0_2' [/home/carbon/kambadur/Projects/Vivado/project_2/project_2.gen/sources_1/bd/design_1/ip/design_1_myip_spi_controller_0_2/synth/design_1_myip_spi_controller_0_2.v:53]
+INFO: [Synth 8-6157] synthesizing module 'myip_spi_controller' [/home/carbon/kambadur/Projects/Vivado/project_2/project_2.gen/sources_1/bd/design_1/ipshared/49c4/hdl/myip_spi_controller.v:4]
+INFO: [Synth 8-6157] synthesizing module 'myip_spi_controller_slave_lite_v1_0_S00_AXI' [/home/carbon/kambadur/Projects/Vivado/project_2/project_2.gen/sources_1/bd/design_1/ipshared/49c4/hdl/myip_spi_controller_slave_lite_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/carbon/kambadur/Projects/Vivado/project_2/project_2.gen/sources_1/bd/design_1/ipshared/49c4/hdl/myip_spi_controller_slave_lite_v1_0_S00_AXI.v:145]
+INFO: [Synth 8-226] default block is never used [/home/carbon/kambadur/Projects/Vivado/project_2/project_2.gen/sources_1/bd/design_1/ipshared/49c4/hdl/myip_spi_controller_slave_lite_v1_0_S00_AXI.v:219]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/carbon/kambadur/Projects/Vivado/project_2/project_2.gen/sources_1/bd/design_1/ipshared/49c4/hdl/myip_spi_controller_slave_lite_v1_0_S00_AXI.v:272]
+INFO: [Synth 8-6157] synthesizing module 'spi_controller' [/home/carbon/kambadur/Projects/Vivado/project_2/project_2.gen/sources_1/bd/design_1/ipshared/49c4/hdl/spi_controller.v:8]
+INFO: [Synth 8-226] default block is never used [/home/carbon/kambadur/Projects/Vivado/project_2/project_2.gen/sources_1/bd/design_1/ipshared/49c4/hdl/spi_controller.v:118]
+INFO: [Synth 8-6155] done synthesizing module 'spi_controller' (0#1) [/home/carbon/kambadur/Projects/Vivado/project_2/project_2.gen/sources_1/bd/design_1/ipshared/49c4/hdl/spi_controller.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'myip_spi_controller_slave_lite_v1_0_S00_AXI' (0#1) [/home/carbon/kambadur/Projects/Vivado/project_2/project_2.gen/sources_1/bd/design_1/ipshared/49c4/hdl/myip_spi_controller_slave_lite_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'myip_spi_controller' (0#1) [/home/carbon/kambadur/Projects/Vivado/project_2/project_2.gen/sources_1/bd/design_1/ipshared/49c4/hdl/myip_spi_controller.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_myip_spi_controller_0_2' (0#1) [/home/carbon/kambadur/Projects/Vivado/project_2/project_2.gen/sources_1/bd/design_1/ip/design_1_myip_spi_controller_0_2/synth/design_1_myip_spi_controller_0_2.v:53]
+WARNING: [Synth 8-7137] Register mosi_reg in module spi_controller has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/carbon/kambadur/Projects/Vivado/project_2/project_2.gen/sources_1/bd/design_1/ipshared/49c4/hdl/spi_controller.v:94]
+WARNING: [Synth 8-7129] Port axi_control[30] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[29] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[28] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[27] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[26] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[25] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[24] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[23] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[22] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[21] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[20] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[19] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[18] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[17] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[16] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[15] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[14] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[13] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[12] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[11] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[10] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[9] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_control[8] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[31] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[30] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[29] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[28] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[27] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[26] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[25] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[24] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[23] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[22] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[21] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[20] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[19] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[18] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[17] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[16] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[15] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[14] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[13] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[12] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[11] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[10] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[9] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_data[8] in module spi_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module myip_spi_controller_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module myip_spi_controller_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module myip_spi_controller_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module myip_spi_controller_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module myip_spi_controller_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module myip_spi_controller_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2029.734 ; gain = 500.766 ; free physical = 6166 ; free virtual = 14145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2047.547 ; gain = 518.578 ; free physical = 6166 ; free virtual = 14145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2047.547 ; gain = 518.578 ; free physical = 6166 ; free virtual = 14145
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2047.547 ; gain = 0.000 ; free physical = 6166 ; free virtual = 14145
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2187.297 ; gain = 0.000 ; free physical = 6180 ; free virtual = 14173
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2187.297 ; gain = 0.000 ; free physical = 6179 ; free virtual = 14173
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2187.297 ; gain = 658.328 ; free physical = 6224 ; free virtual = 14217
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2195.301 ; gain = 666.332 ; free physical = 6224 ; free virtual = 14217
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2195.301 ; gain = 666.332 ; free physical = 6224 ; free virtual = 14217
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_write_reg' in module 'myip_spi_controller_slave_lite_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_read_reg' in module 'myip_spi_controller_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Waddr |                               01 |                               10
+                   Wdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_write_reg' using encoding 'sequential' in module 'myip_spi_controller_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Raddr |                               01 |                               10
+                   Rdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_read_reg' using encoding 'sequential' in module 'myip_spi_controller_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2195.301 ; gain = 666.332 ; free physical = 6226 ; free virtual = 14219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    4 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               16 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 4     
+	   4 Input   32 Bit        Muxes := 5     
+	   4 Input   16 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 7     
+	   3 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 5     
+	   4 Input    1 Bit        Muxes := 5     
+	   3 Input    1 Bit        Muxes := 13    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port s00_axi_awprot[2] in module design_1_myip_spi_controller_0_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[1] in module design_1_myip_spi_controller_0_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[0] in module design_1_myip_spi_controller_0_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[2] in module design_1_myip_spi_controller_0_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[1] in module design_1_myip_spi_controller_0_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[0] in module design_1_myip_spi_controller_0_2 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2195.301 ; gain = 666.332 ; free physical = 6223 ; free virtual = 14217
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 2218.301 ; gain = 689.332 ; free physical = 6238 ; free virtual = 14238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 2218.301 ; gain = 689.332 ; free physical = 6238 ; free virtual = 14238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 2228.324 ; gain = 699.355 ; free physical = 6222 ; free virtual = 14223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 2397.137 ; gain = 868.168 ; free physical = 6077 ; free virtual = 14079
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 2397.137 ; gain = 868.168 ; free physical = 6077 ; free virtual = 14079
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 2397.137 ; gain = 868.168 ; free physical = 6077 ; free virtual = 14079
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 2397.137 ; gain = 868.168 ; free physical = 6077 ; free virtual = 14079
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 2397.137 ; gain = 868.168 ; free physical = 6077 ; free virtual = 14079
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 2397.137 ; gain = 868.168 ; free physical = 6077 ; free virtual = 14079
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |     5|
+|3     |LUT3 |    23|
+|4     |LUT4 |     5|
+|5     |LUT5 |     9|
+|6     |LUT6 |    56|
+|7     |FDCE |    27|
+|8     |FDRE |   142|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 2397.137 ; gain = 868.168 ; free physical = 6077 ; free virtual = 14079
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 2397.137 ; gain = 728.418 ; free physical = 6076 ; free virtual = 14078
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 2397.145 ; gain = 868.168 ; free physical = 6076 ; free virtual = 14078
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2397.145 ; gain = 0.000 ; free physical = 6076 ; free virtual = 14078
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2453.164 ; gain = 0.000 ; free physical = 6232 ; free virtual = 14234
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 82b9a2a6
+INFO: [Common 17-83] Releasing license: Synthesis
+34 Infos, 61 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:39 . Memory (MB): peak = 2453.164 ; gain = 1006.730 ; free physical = 6232 ; free virtual = 14233
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1732.535; main = 1594.182; forked = 268.116
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3232.711; main = 2453.168; forked = 942.383
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2477.176 ; gain = 0.000 ; free physical = 6232 ; free virtual = 14233
+INFO: [Common 17-1381] The checkpoint '/home/carbon/kambadur/Projects/Vivado/project_2/project_2.runs/design_1_myip_spi_controller_0_2_synth_1/design_1_myip_spi_controller_0_2.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_myip_spi_controller_0_2, cache-ID = e5c14530ea57ce82
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2477.176 ; gain = 0.000 ; free physical = 6229 ; free virtual = 14232
+INFO: [Common 17-1381] The checkpoint '/home/carbon/kambadur/Projects/Vivado/project_2/project_2.runs/design_1_myip_spi_controller_0_2_synth_1/design_1_myip_spi_controller_0_2.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_myip_spi_controller_0_2_utilization_synth.rpt -pb design_1_myip_spi_controller_0_2_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Feb  2 07:14:37 2025...

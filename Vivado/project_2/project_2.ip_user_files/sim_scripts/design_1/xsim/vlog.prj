@@ -1,0 +1,33 @@
+verilog xil_defaultlib --include "/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/86fe/hdl" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/49c4/hdl" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/f0b6/hdl/verilog" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/0127/hdl/verilog" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" \
+"../../../bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
+"../../../bd/design_1/ipshared/49c4/hdl/myip_spi_controller_slave_lite_v1_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/49c4/hdl/myip_spi_controller.v" \
+"../../../bd/design_1/ip/design_1_myip_spi_controller_0_2/sim/design_1_myip_spi_controller_0_2.v" \
+"../../../bd/design_1/ip/design_1_axi_smc_0/bd_0/sim/bd_afc3.v" \
+"../../../bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_0/sim/bd_afc3_one_0.v" \
+
+sv xil_defaultlib --include "/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/86fe/hdl" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/49c4/hdl" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/f0b6/hdl/verilog" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/0127/hdl/verilog" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" \
+"../../../bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_2/sim/bd_afc3_s00mmu_0.sv" \
+"../../../bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_3/sim/bd_afc3_s00tr_0.sv" \
+"../../../bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_4/sim/bd_afc3_s00sic_0.sv" \
+"../../../bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_5/sim/bd_afc3_s00a2s_0.sv" \
+"../../../bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_6/sim/bd_afc3_sarn_0.sv" \
+"../../../bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_7/sim/bd_afc3_srn_0.sv" \
+"../../../bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_8/sim/bd_afc3_sawn_0.sv" \
+"../../../bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_9/sim/bd_afc3_swn_0.sv" \
+"../../../bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_10/sim/bd_afc3_sbn_0.sv" \
+"../../../bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_11/sim/bd_afc3_m00s2a_0.sv" \
+"../../../bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_12/sim/bd_afc3_m00e_0.sv" \
+
+verilog xil_defaultlib --include "/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/86fe/hdl" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/49c4/hdl" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/f0b6/hdl/verilog" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/0127/hdl/verilog" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" --include "../../../../project_2.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" \
+"../../../bd/design_1/ip/design_1_axi_smc_0/sim/design_1_axi_smc_0.v" \
+"../../../bd/design_1/ip/design_1_xlconcat_0_0/sim/design_1_xlconcat_0_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/sim/bd_f60c.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/sim/bd_f60c_ila_lib_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/sim/design_1_system_ila_0_0.v" \
+"../../../bd/design_1/sim/design_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

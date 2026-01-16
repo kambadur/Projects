@@ -1,0 +1,3 @@
+/home/carbon/kambadur/Projects/Vivado/zed_nand_axi_gpio/zynq_nand_axi_gpio/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
+/home/carbon/kambadur/Projects/Vivado/zed_nand_axi_gpio/zynq_nand_axi_gpio/zynq_fsbl/build/CMakeFiles/edit_cache.dir
+/home/carbon/kambadur/Projects/Vivado/zed_nand_axi_gpio/zynq_nand_axi_gpio/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir

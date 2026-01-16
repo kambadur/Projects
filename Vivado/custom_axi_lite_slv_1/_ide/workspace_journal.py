@@ -22,3 +22,39 @@ status = platform.update_hw(hw_design = "$COMPONENT_LOCATION/../design_1_wrapper
 
 status = platform.build()
 
+status = platform.build()
+
+comp.build()
+
+status = platform.update_hw(hw_design = "$COMPONENT_LOCATION/../design_1_wrapper.xsa")
+
+status = platform.build()
+
+status = platform.update_hw(hw_design = "$COMPONENT_LOCATION/../design_1_wrapper.xsa")
+
+status = platform.build()
+
+status = comp.clean()
+
+status = platform.build()
+
+comp.build()
+
+status = platform.update_hw(hw_design = "$COMPONENT_LOCATION/../design_1_wrapper.xsa")
+
+status = platform.build()
+
+status = platform.update_hw(hw_design = "$COMPONENT_LOCATION/../design_1_wrapper.xsa")
+
+status = platform.build()
+
+status = platform.update_hw(hw_design = "$COMPONENT_LOCATION/../design_1_wrapper.xsa")
+
+status = platform.build()
+
+status = comp.clean()
+
+status = platform.build()
+
+comp.build()
+

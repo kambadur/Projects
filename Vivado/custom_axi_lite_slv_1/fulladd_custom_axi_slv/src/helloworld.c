@@ -30,12 +30,12 @@ static volatile uint32_t * sum = (uint32_t *) (XPAR_MYIP_FA_0_BASEADDR + 12U);
 
 int main()
 {
+    init_platform();
+
     //declare variables to write to ip_fa_0
     *a = 127;
-    *b = 127;
+    *b = 126;
     *cin = 0;
-    
-    init_platform();
 
     print("Hello World\n\r");
     print("Successfully ran Hello World application\n\r");

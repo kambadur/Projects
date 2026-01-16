@@ -1,0 +1,4 @@
+domain_path: /home/carbon/kambadur/Projects/Vivado/mb_uart/platform_mb_uart/export/platform_mb_uart/sw/standalone_microblaze_0
+app_src_dir: /tools/Xilinx/Vitis/2024.2/data/embeddedsw/lib/sw_apps/hello_world
+template: hello_world
+lang: c

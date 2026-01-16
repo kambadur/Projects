@@ -57,6 +57,8 @@ if {$::dispatch::connected} {
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 1
+set_param tcl.collectionResultDisplayLimit 0
+set_param xicom.use_bs_reader 1
 set_param bd.open.in_stealth_mode 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z020clg484-1
@@ -100,6 +102,8 @@ set_property used_in_implementation false [get_files -all /home/carbon/kambadur/
 set_property used_in_implementation false [get_files -all /home/carbon/kambadur/Projects/Vivado/custom_axi_lite_slv_1/custom_axi_lite_slv_1.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc]
 set_property used_in_implementation false [get_files -all /home/carbon/kambadur/Projects/Vivado/custom_axi_lite_slv_1/custom_axi_lite_slv_1.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/carbon/kambadur/Projects/Vivado/custom_axi_lite_slv_1/custom_axi_lite_slv_1.gen/sources_1/bd/design_1/design_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/carbon/kambadur/Projects/Vivado/custom_axi_lite_slv_1/custom_axi_lite_slv_1.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/bd_f60c_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/carbon/kambadur/Projects/Vivado/custom_axi_lite_slv_1/custom_axi_lite_slv_1.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_ooc.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -110,6 +114,9 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
+read_xdc /home/carbon/kambadur/Projects/Vivado/custom_axi_lite_slv_1/custom_axi_lite_slv_1.srcs/constrs_1/new/debugsignals.xdc
+set_property used_in_implementation false [get_files /home/carbon/kambadur/Projects/Vivado/custom_axi_lite_slv_1/custom_axi_lite_slv_1.srcs/constrs_1/new/debugsignals.xdc]
+
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1

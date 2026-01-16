@@ -1,0 +1,590 @@
+/*
+
+AMD Vivado v2024.2 (64-bit) [Major: 2024, Minor: 2]
+SW Build: 5239630 on Fri Nov 08 22:34:34 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+
+Process ID (PID): 354143
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sun Jan 19 08:09:49 CET 2025
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: Ubuntu
+OS Version: 6.8.0-51-generic
+OS Architecture: amd64
+Available processors (cores): 4
+LSB Release Description: DISTRIB_ID=Ubuntu
+
+Display: 0
+Screen size: 1920x1080
+Local screen bounds: x = 0, y = 31, width = 1920, height = 1001
+Screen resolution (DPI): 94
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=11
+Scale size: 10
+OS font scaling: 94%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.1 64-bit
+
+Java home: 	/tools/Xilinx/Vivado/2024.2/tps/lnx64/jre21.0.1_12
+Java executable: 	/tools/Xilinx/Vivado/2024.2/tps/lnx64/jre21.0.1_12/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:ParallelGCThreads=4, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	carbon
+User home directory: /home/carbon
+User working directory: /home/carbon/kambadur/Projects/Vivado/cmods7_and_axi_gpio/cmods7_and_axi_gpio.srcs/constrs_1/new
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2024.2
+RDI_DATADIR: /tools/Xilinx/Vivado/2024.2/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2024.2/bin
+
+Vivado preferences file: /home/carbon/.Xilinx/Vivado/2024.2/vivado.xml
+Vivado preferences directory: /home/carbon/.Xilinx/Vivado/2024.2/
+Vivado layouts directory: /home/carbon/.Xilinx/Vivado/2024.2/data/layouts
+PlanAhead jar file: 	/tools/Xilinx/Vivado/2024.2/lib/classes/planAhead.jar
+Vivado log file: 	/home/carbon/kambadur/Projects/Vivado/cmods7_and_axi_gpio/cmods7_and_axi_gpio.srcs/constrs_1/new/vivado.log
+Vivado journal file: 	/home/carbon/kambadur/Projects/Vivado/cmods7_and_axi_gpio/cmods7_and_axi_gpio.srcs/constrs_1/new/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-354143-carbon
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+GNOME_SHELL_SESSION_MODE: ubuntu
+RDI_APPROOT: /tools/Xilinx/Vivado/2024.2
+RDI_BASEROOT: /tools/Xilinx/Vivado
+RDI_BINROOT: /tools/Xilinx/Vivado/2024.2/bin
+RDI_BUILD: yes
+RDI_DATADIR: /tools/Xilinx/Vivado/2024.2/data
+RDI_INSTALLROOT: /tools/Xilinx
+RDI_INSTALLVER: 2024.2
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: /tools/Xilinx/Vivado/2024.2/lib/lnx64.o/Ubuntu/24:/tools/Xilinx/Vivado/2024.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vivado/2024.2/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /tools/Xilinx/Vitis/2024.2/bin:/tools/Xilinx/Vivado/2024.2/ids_lite/ISE/bin/lin64
+RDI_PROG: /tools/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/carbon/kambadur/Projects/Vivado/cmods7_and_axi_gpio/cmods7_and_axi_gpio.srcs/constrs_1/new:carbon_1737270570_354074
+RDI_SHARED_DATA: /tools/Xilinx/SharedData/2024.2/data
+RDI_TPS_ROOT: /tools/Xilinx/Vivado/2024.2/tps/lnx64
+RDI_USE_JDK21: True
+SHELL: /bin/bash
+XILINX: /tools/Xilinx/Vivado/2024.2/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/Vivado/2024.2/ids_lite/ISE
+XILINX_HLS: /tools/Xilinx/Vitis/2024.2
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2024.2
+XILINX_SDK: /tools/Xilinx/Vitis/2024.2
+XILINX_VITIS: /tools/Xilinx/Vitis/2024.2
+XILINX_VIVADO: /tools/Xilinx/Vivado/2024.2
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,356 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,361 MB. GUI used memory: 67 MB. Current time: 1/19/25, 8:09:50 AM CET
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.xpr", 0); // b.c (PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS)
+// Opening Vivado Project: /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.xpr. Version: Vivado v2024.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 74 MB (+75562kb) [00:00:53]
+// [Engine Memory]: 1,469 MB (+1388603kb) [00:00:53]
+// [GUI Memory]: 132 MB (+56889kb) [00:00:55]
+// [Engine Memory]: 1,753 MB (+221379kb) [00:00:55]
+// [GUI Memory]: 142 MB (+3498kb) [00:00:56]
+// WARNING: HEventQueue.dispatchEvent() is taking  4800 ms.
+// Tcl Message: open_project /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.2/data/ip'. INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,847 MB. GUI used memory: 78 MB. Current time: 1/19/25, 8:10:33 AM CET
+// [Engine Memory]: 1,847 MB (+6652kb) [00:00:57]
+// WARNING: HEventQueue.dispatchEvent() is taking  1505 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:07 . Memory (MB): peak = 7948.633 ; gain = 489.266 ; free physical = 4661 ; free virtual = 12245 
+// Project name: mb_axi_gpio; location: /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio; part: xc7s25csga225-1
+// Elapsed time: 10 seconds
+dismissDialog("Open Project"); // bh (Open Project Progress)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 127 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// 'cM' command handler elapsed time: 3 seconds
+selectButton("OptionPane.button", "Cancel", "Generate Bitstream"); // JButton (OptionPane.button)
+// Elapsed time: 366 seconds
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR_AND_CRITICAL_WARNING_MESSAGES, "1 critical warning"); // h (PAResourceQtoS.RunGadget_SHOW_ERROR_AND_CRITICAL_WARNING_MESSAGES)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+// Elapsed time: 10 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Constraints 18-1056] Clock 'sys_clk' completely overrides clock 'sysclk'.. New: create_clock -period 83.330 -name sys_clk [get_ports sysclk], [/home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.srcs/constrs_1/new/cmods7.xdc:2]. Previous: create_clock -period 83.333 [get_ports sysclk], [/home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0_in_context.xdc:1]. ]", 2, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+// [GUI Memory]: 153 MB (+3092kb) [00:09:29]
+// Elapsed time: 13 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, cmods7.xdc]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, cmods7.xdc]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Launch External Editor: 'code -g /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.srcs/constrs_1/new/cmods7.xdc:0'
+// Elapsed time: 29 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: open_bd_design {/home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.srcs/sources_1/bd/design_1/design_1.bd} 
+// Tcl Message: Reading block design file </home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.srcs/sources_1/bd/design_1/design_1.bd>... 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  1194 ms.
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// WARNING: HTimer (Open addressing views timer) is taking 494ms to process. Increasing delay to 1300 ms.
+dismissDialog("Open Block Design"); // bh (Open Block Design Progress)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ai (PAResourceItoN.MainMenuMgr_FILE, File)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // an (PAResourceItoN.MainMenuMgr_PROJECT, Project)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // an (PAResourceItoN.MainMenuMgr_CHECKPOINT, Checkpoint)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // an (PAResourceItoN.MainMenuMgr_IP, IP)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // an (PAResourceItoN.MainMenuMgr_TEXT_EDITOR, Text Editor)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // an (PAResourceItoN.MainMenuMgr_IMPORT, Import)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // an (PAResourceItoN.MainMenuMgr_TEXT_EDITOR, Text Editor)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // an (PAResourceItoN.MainMenuMgr_IMPORT, Import)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // an (PAResourceItoN.MainMenuMgr_EXPORT, Export)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // an (PAResourceItoN.MainMenuMgr_EXPORT, Export)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // aq (PAResourceCommand.PACommandNames_EXPORT_HARDWARE, export_hardware_menu)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ai (PAResourceItoN.MainMenuMgr_FILE, File)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// Tcl (Dont Echo) Command: 'get_property pfm_name [get_files -all {/home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.srcs/sources_1/bd/design_1/design_1.bd}]'
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectRadioButton(PAResourceEtoH.ExportFixedPlatformWizard_INCLUDE_BITSTREAM, "Include bitstream. This platform includes the complete hardware implementation and bitstream, in addition to the hardware specification for software tools."); // b (PAResourceEtoH.ExportFixedPlatformWizard_INCLUDE_BITSTREAM)
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectButton("FINISH", "Finish", "Export Hardware Platform"); // JButton (FINISH)
+// 'n' command handler elapsed time: 9 seconds
+dismissDialog("Export Hardware Platform"); // d (dialog0)
+// Tcl Message: write_hw_platform -fixed -include_bit -force -file /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/design_1_wrapper.xsa 
+// Tcl Message: INFO: [Project 1-1918] Creating Hardware Platform: /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/design_1_wrapper.xsa ... 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,094 MB. GUI used memory: 86 MB. Current time: 1/19/25, 8:20:10 AM CET
+// Tcl Message: INFO: [Project 1-1943] The Hardware Platform can be used for Hardware INFO: [Project 1-1941] Successfully created Hardware Platform: /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/design_1_wrapper.xsa 
+// Tcl Message: INFO: [Hsi 55-2053] elapsed time for repository (/tools/Xilinx/Vivado/2024.2/data/embeddedsw) loading 0 seconds 
+// [Engine Memory]: 2,086 MB (+153118kb) [00:10:36]
+dismissDialog("Export Hardware Platform"); // bh (Export Hardware Platform Progress)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ai (PAResourceItoN.MainMenuMgr_FILE, File)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // an (PAResourceItoN.MainMenuMgr_PROJECT, Project)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // an (PAResourceItoN.MainMenuMgr_CHECKPOINT, Checkpoint)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // an (PAResourceItoN.MainMenuMgr_IP, IP)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // an (PAResourceItoN.MainMenuMgr_TEXT_EDITOR, Text Editor)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // an (PAResourceItoN.MainMenuMgr_IMPORT, Import)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // an (PAResourceItoN.MainMenuMgr_EXPORT, Export)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // an (PAResourceItoN.MainMenuMgr_EXPORT, Export)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // an (PAResourceItoN.MainMenuMgr_IMPORT, Import)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // an (PAResourceItoN.MainMenuMgr_TEXT_EDITOR, Text Editor)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // an (PAResourceItoN.MainMenuMgr_PROJECT, Project)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ai (PAResourceItoN.MainMenuMgr_FILE, File)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ai (PAResourceItoN.MainMenuMgr_FLOW, Flow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ai (PAResourceItoN.MainMenuMgr_FLOW, Flow)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ai (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // an (RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, Custom Commands)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_VITIS_IDE, "Launch Vitis IDE"); // aq (PAResourceCommand.PACommandNames_LAUNCH_VITIS_IDE, launch_vitis_ide_menu)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ai (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_VITIS_IDE
+dismissDialog("Launch Vitis IDE"); // bh (Launch Vitis IDE Progress)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 86 MB. Current time: 1/19/25, 8:50:10 AM CET
+// [GUI Memory]: 160 MB (+69kb) [00:45:06]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 70 MB. Current time: 1/19/25, 9:20:10 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/19/25, 9:50:11 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/19/25, 10:20:11 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/19/25, 10:50:11 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/19/25, 11:20:11 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/19/25, 11:50:11 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/19/25, 12:20:11 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/19/25, 12:50:11 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/19/25, 1:20:11 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/19/25, 1:50:11 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/19/25, 2:20:11 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/19/25, 2:50:11 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/19/25, 3:20:12 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 65 MB. Current time: 1/19/25, 3:50:12 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/19/25, 4:20:12 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/19/25, 4:50:12 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/19/25, 5:20:12 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/19/25, 5:50:12 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/19/25, 6:20:12 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/19/25, 6:50:12 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/19/25, 7:20:12 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/19/25, 7:50:12 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/19/25, 8:20:12 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/19/25, 8:50:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/19/25, 9:20:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/19/25, 9:50:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/19/25, 10:20:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/19/25, 10:50:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/19/25, 11:20:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/19/25, 11:50:13 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/20/25, 12:20:13 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/20/25, 12:50:13 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/20/25, 1:20:13 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/20/25, 1:50:13 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/20/25, 2:20:14 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/20/25, 2:50:14 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/20/25, 3:20:14 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 65 MB. Current time: 1/20/25, 3:50:14 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/20/25, 4:20:14 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/20/25, 4:50:14 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/20/25, 5:20:14 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/20/25, 5:50:14 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/20/25, 6:20:14 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/20/25, 6:50:14 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/20/25, 5:58:21 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/20/25, 6:28:21 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/20/25, 6:58:21 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/20/25, 7:28:21 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/20/25, 7:58:21 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/20/25, 8:28:21 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/20/25, 8:58:21 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/20/25, 9:28:22 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/20/25, 9:58:22 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 64 MB. Current time: 1/20/25, 10:28:22 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 63 MB. Current time: 1/20/25, 10:58:22 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 65 MB. Current time: 1/20/25, 11:28:22 PM CET
+// Elapsed time: 141013 seconds
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // C (PAResourceCommand.PACommandNames_RUN_BITGEN, run_bitstream)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton("OptionPane.button", "OK", "Generate Bitstream"); // JButton (OptionPane.button)
+// Elapsed time: 19 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 23 seconds
+dismissDialog("Launch Runs"); // cP (dialog1)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Mon Jan 20 23:30:58 2025] Launched impl_1... Run output will be captured here: /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bh (Generate Bitstream Progress)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 54 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel", "Bitstream Generation Completed"); // a (RDIResource.BaseDialog_CANCEL)
+dismissDialog("Bitstream Generation Completed"); // W.a (dialog2)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ai (PAResourceItoN.MainMenuMgr_FILE, File)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // an (PAResourceItoN.MainMenuMgr_PROJECT, Project)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // an (PAResourceItoN.MainMenuMgr_IP, IP)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // an (PAResourceItoN.MainMenuMgr_TEXT_EDITOR, Text Editor)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // an (PAResourceItoN.MainMenuMgr_EXPORT, Export)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // an (PAResourceItoN.MainMenuMgr_EXPORT, Export)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // aq (PAResourceCommand.PACommandNames_EXPORT_HARDWARE, export_hardware_menu)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ai (PAResourceItoN.MainMenuMgr_FILE, File)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// Tcl (Dont Echo) Command: 'get_property pfm_name [get_files -all {/home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.srcs/sources_1/bd/design_1/design_1.bd}]'
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectRadioButton(PAResourceEtoH.ExportFixedPlatformWizard_INCLUDE_BITSTREAM, "Include bitstream. This platform includes the complete hardware implementation and bitstream, in addition to the hardware specification for software tools."); // b (PAResourceEtoH.ExportFixedPlatformWizard_INCLUDE_BITSTREAM)
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectMoreButton(PAResourceEtoH.ExportFixedPlatformWizard_EXPORT_DIRECTORY, (String) null, "Export Hardware Platform"); // s (PAResourceEtoH.ExportFixedPlatformWizard_EXPORT_DIRECTORY)
+dismissFolderChooser();
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectButton("OptionPane.button", "Yes", "Module Already Exported"); // JButton (OptionPane.button)
+selectButton("FINISH", "Finish", "Export Hardware Platform"); // JButton (FINISH)
+// 'n' command handler elapsed time: 19 seconds
+dismissDialog("Export Hardware Platform"); // d (dialog3)
+// Tcl Message: write_hw_platform -fixed -include_bit -force -file /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/design_1_wrapper.xsa 
+// Tcl Message: INFO: [Project 1-1918] Creating Hardware Platform: /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/design_1_wrapper.xsa ... 
+// Tcl Message: INFO: [Project 1-1943] The Hardware Platform can be used for Hardware INFO: [Project 1-1941] Successfully created Hardware Platform: /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/design_1_wrapper.xsa 
+dismissDialog("Export Hardware Platform"); // bh (Export Hardware Platform Progress)
+// Elapsed time: 131 seconds
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // C (PAResourceQtoS.SystemBuilderView_ADD_IP, System_RSB_ADD_IP)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "uart"); // OverlayTextField (PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Uartlite", 1, "AXI Uartlite", 0, false); // z (PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Uartlite", 1, "AXI Uartlite", 0, false); // z (PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Uartlite", 1); // z (PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Uartlite", 1, "AXI Uartlite", 0, false, false, false, false, false, true); // z (PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE) - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: startgroup 
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:axi_uartlite:2.0 axi_uartlite_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bh (Add IP Progress)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 39h:24m:10s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,131 MB. GUI used memory: 70 MB. Current time: 1/20/25, 11:34:42 PM CET
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h (PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 39h:24m:12s
+selectCheckBoxTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (2 out of 2 selected)]", 0, true, true, ui.utils.collection.couples.TriState.True); // G.c (PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE) - Node
+// PAPropertyPanels.initPanels (UART) elapsed time: 0.2s
+selectCheckBoxTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (1 out of 2 selected), axi_uartlite_0, UART]", 3, false, true, ui.utils.collection.couples.TriState.False); // G.c (PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Run Connection Automation"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Run Connection Automation"); // G (dialog5)
+// TclEventType: XGUI_UPDATE_GUI_ELEMENT
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_1/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_1/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_uartlite_0/S_AXI} ddr_seg {Auto} intc_ip {/axi_smc} master_apm {0}}  [get_bd_intf_pins axi_uartlite_0/S_AXI] 
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: XGUI_RESET_GUI_ELEMENT
+// Tcl Message: Slave segment '/axi_uartlite_0/S_AXI/Reg' is being assigned into address space '/microblaze_0/Data' at <0x4060_0000 [ 64K ]>. 
+dismissDialog("Run Connection Automation"); // bh (Run Connection Automation Progress)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 39h:24m:24s
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // C (PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, System_regenerate_rsb_layout)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// Tcl Command: 'regenerate_bd_layout'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 39h:24m:26s
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aa
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, cmods7.xdc]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, cmods7.xdc]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Launch External Editor: 'code -g /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.srcs/constrs_1/new/cmods7.xdc:0'
+// Elapsed time: 10 seconds
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_pins /axi_uartlite_0/rx]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// PAPropertyPanels.initPanels (rx) elapsed time: 0.2s
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_uartlite_0/rx] 
+// Tcl Message: endgroup 
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_ports /rx_0]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// PAPropertyPanels.initPanels (rx_0) elapsed time: 0.3s
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "uart_rx", true); // ad (PAResourceQtoS.RSBExternalPortPropPanels_NAME)
+// Tcl Command: 'set_property name uart_rx [get_bd_ports rx_0]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name uart_rx [get_bd_ports rx_0] 
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_pins /axi_uartlite_0/tx]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_uartlite_0/tx] 
+// Tcl Message: endgroup 
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_ports /tx_0]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "uart_tx", true); // ad (PAResourceQtoS.RSBExternalPortPropPanels_NAME)
+// Tcl Command: 'set_property name uart_tx [get_bd_ports tx_0]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name uart_tx [get_bd_ports tx_0] 
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // C (PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, System_regenerate_rsb_layout)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// Tcl Command: 'regenerate_bd_layout'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+// Elapsed time: 12 seconds
+selectButton(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "System_validate_bd_design_rsb"); // C (PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, System_validate_bd_design_rsb)
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'validate_bd_design'
+// TclEventType: RSB_VALIDATE_DIAGRAM
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CLOSE_DIAGRAM
+// Tcl Message: validate_bd_design 
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: INFO: [BD 5-943] Reserving offset range <0x4000_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M00_AXI'. This will be used by smartconnect on path for routing. INFO: [BD 5-943] Reserving offset range <0x4060_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M01_AXI'. This will be used by smartconnect on path for routing. INFO: [xilinx.com:ip:smartconnect:1.0-1] design_1_axi_smc_0: SmartConnect design_1_axi_smc_0 is in Low-Area Mode. 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: INFO: [xilinx.com:ip:microblaze:11.0-9] /microblaze_0: Setting C_BASE_VECTORS to 0x00000000. INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_1 clk_wiz propagate 
+// Tcl Message: validate_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8434.816 ; gain = 0.000 ; free physical = 1681 ; free virtual = 10273 
+dismissDialog("Validate Design"); // bh (Validate Design Progress)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 39h:25m:40s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,175 MB. GUI used memory: 76 MB. Current time: 1/20/25, 11:36:12 PM CET
+selectButton("OptionPane.button", "OK", "Validate Design"); // JButton (OptionPane.button)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 39h:25m:42s
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // C (PAResourceCommand.PACommandNames_RUN_BITGEN, run_bitstream)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save", "Save Project"); // a (PAResourceQtoS.SaveProjectUtils_SAVE)
+// TclEventType: RSB_SAVE_DIAGRAM
+dismissDialog("Save Project"); // ac.d (dialog6)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: save_bd_design 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : </home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.srcs/sources_1/bd/design_1/design_1.bd>  Wrote  : </home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+dismissDialog("Save Constraints"); // bh (Save Constraints Progress)
+// [Engine Memory]: 2,238 MB (+50654kb) [39:26:48]
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 39h:25m:52s
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_YES)
+dismissDialog("Synthesis is Out-of-date"); // u (dialog7)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1160] Copying file /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.runs/synth_1/design_1_wrapper.dcp to /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.srcs/utils_1/imports/synth_1 and adding it to utils fileset 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run design_1_axi_smc_0_synth_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 39h:25m:56s
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 11 seconds
+dismissDialog("Launch Runs"); // cP (dialog8)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Verilog Output written to : /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.gen/sources_1/bd/design_1/synth/design_1.v Verilog Output written to : /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.gen/sources_1/bd/design_1/sim/design_1.v Verilog Output written to : /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,194 MB. GUI used memory: 76 MB. Current time: 1/20/25, 11:36:32 PM CET
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: Exporting to file /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/hw_handoff/design_1_axi_smc_0.hwh Generated Hardware Definition File /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/design_1_axi_smc_0.hwdef 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_smc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 . 
+// Tcl Message: Exporting to file /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Hardware Definition File /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.gen/sources_1/bd/design_1/synth/design_1.hwdef 
+// Tcl Message: INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8 INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_smc_0 INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_uartlite_0_0 INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork() INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_smc_0 INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_uartlite_0_0 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: [Mon Jan 20 23:36:44 2025] Launched design_1_axi_smc_0_synth_1, design_1_axi_uartlite_0_0_synth_1, synth_1... Run output will be captured here: design_1_axi_smc_0_synth_1: /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.runs/design_1_axi_smc_0_synth_1/runme.log design_1_axi_uartlite_0_0_synth_1: /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.runs/design_1_axi_uartlite_0_0_synth_1/runme.log synth_1: /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.runs/synth_1/runme.log [Mon Jan 20 23:36:45 2025] Launched impl_1... Run output will be captured here: /home/carbon/kambadur/Projects/Vivado/mb_axi_gpio/mb_axi_gpio.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 8499.824 ; gain = 36.008 ; free physical = 1591 ; free virtual = 10196 
+// Elapsed time: 17 seconds
+dismissDialog("Generate Bitstream"); // bh (Generate Bitstream Progress)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 39h:26m:14s
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 556ms to process. Increasing delay to 3000 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HEventQueue.dispatchEvent() is taking  34859 ms.

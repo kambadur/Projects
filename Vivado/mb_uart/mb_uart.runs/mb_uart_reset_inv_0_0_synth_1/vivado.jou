@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Jan  2 14:35:22 2025
+# Process ID         : 1888200
+# Current directory  : /home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.runs/mb_uart_reset_inv_0_0_synth_1
+# Command line       : vivado -log mb_uart_reset_inv_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_uart_reset_inv_0_0.tcl
+# Log file           : /home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.runs/mb_uart_reset_inv_0_0_synth_1/mb_uart_reset_inv_0_0.vds
+# Journal file       : /home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.runs/mb_uart_reset_inv_0_0_synth_1/vivado.jou
+# Running On         : carbon
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.1 LTS
+# Processor Detail   : Intel(R) Core(TM) i5-4210M CPU @ 2.60GHz
+# CPU Frequency      : 3092.941 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 16444 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 20739 MB
+# Available Virtual  : 5002 MB
+#-----------------------------------------------------------
+source mb_uart_reset_inv_0_0.tcl -notrace

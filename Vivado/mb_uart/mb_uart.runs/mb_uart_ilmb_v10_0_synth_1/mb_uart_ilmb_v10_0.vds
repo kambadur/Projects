@@ -1,0 +1,235 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Jan  2 14:31:59 2025
+# Process ID         : 1882662
+# Current directory  : /home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.runs/mb_uart_ilmb_v10_0_synth_1
+# Command line       : vivado -log mb_uart_ilmb_v10_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_uart_ilmb_v10_0.tcl
+# Log file           : /home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.runs/mb_uart_ilmb_v10_0_synth_1/mb_uart_ilmb_v10_0.vds
+# Journal file       : /home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.runs/mb_uart_ilmb_v10_0_synth_1/vivado.jou
+# Running On         : carbon
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.1 LTS
+# Processor Detail   : Intel(R) Core(TM) i5-4210M CPU @ 2.60GHz
+# CPU Frequency      : 3092.485 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 16444 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 20739 MB
+# Available Virtual  : 4878 MB
+#-----------------------------------------------------------
+source mb_uart_ilmb_v10_0.tcl -notrace
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mb_uart_ilmb_v10_0
+Command: synth_design -top mb_uart_ilmb_v10_0 -part xc7a100tcsg324-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1882952
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1910.355 ; gain = 421.766 ; free physical = 169 ; free virtual = 3688
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mb_uart_ilmb_v10_0' [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ip/mb_uart_ilmb_v10_0/synth/mb_uart_ilmb_v10_0.vhd:89]
+	Parameter C_LMB_NUM_SLAVES bound to: 1 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'lmb_v10' declared at '/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ipshared/7495/hdl/lmb_v10_v3_0_vh_rfs.vhd:91' bound to instance 'U0' of component 'lmb_v10' [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ip/mb_uart_ilmb_v10_0/synth/mb_uart_ilmb_v10_0.vhd:169]
+INFO: [Synth 8-638] synthesizing module 'lmb_v10' [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ipshared/7495/hdl/lmb_v10_v3_0_vh_rfs.vhd:140]
+INFO: [Synth 8-3491] module 'FDS' declared at '/tools/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:43311' bound to instance 'POR_FF_I' of component 'FDS' [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ipshared/7495/hdl/lmb_v10_v3_0_vh_rfs.vhd:170]
+INFO: [Synth 8-6157] synthesizing module 'FDS' [/tools/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:43311]
+INFO: [Synth 8-6155] done synthesizing module 'FDS' (0#1) [/tools/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:43311]
+INFO: [Synth 8-256] done synthesizing module 'lmb_v10' (0#1) [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ipshared/7495/hdl/lmb_v10_v3_0_vh_rfs.vhd:140]
+INFO: [Synth 8-256] done synthesizing module 'mb_uart_ilmb_v10_0' (0#1) [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ip/mb_uart_ilmb_v10_0/synth/mb_uart_ilmb_v10_0.vhd:89]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1987.324 ; gain = 498.734 ; free physical = 322 ; free virtual = 3700
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2005.137 ; gain = 516.547 ; free physical = 320 ; free virtual = 3698
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2005.137 ; gain = 516.547 ; free physical = 320 ; free virtual = 3698
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2011.074 ; gain = 0.000 ; free physical = 315 ; free virtual = 3693
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ip/mb_uart_ilmb_v10_0/mb_uart_ilmb_v10_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.gen/sources_1/bd/mb_uart/ip/mb_uart_ilmb_v10_0/mb_uart_ilmb_v10_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.runs/mb_uart_ilmb_v10_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.runs/mb_uart_ilmb_v10_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2078.074 ; gain = 0.000 ; free physical = 277 ; free virtual = 3657
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  FDS => FDSE: 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2078.074 ; gain = 0.000 ; free physical = 277 ; free virtual = 3657
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2078.074 ; gain = 589.484 ; free physical = 258 ; free virtual = 3637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2086.078 ; gain = 597.488 ; free physical = 258 ; free virtual = 3637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.runs/mb_uart_ilmb_v10_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2086.078 ; gain = 597.488 ; free physical = 258 ; free virtual = 3637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2086.078 ; gain = 597.488 ; free physical = 258 ; free virtual = 3638
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2086.078 ; gain = 597.488 ; free physical = 258 ; free virtual = 3638
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 2150.078 ; gain = 661.488 ; free physical = 1329 ; free virtual = 4744
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 2150.078 ; gain = 661.488 ; free physical = 1329 ; free virtual = 4744
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 2160.094 ; gain = 671.504 ; free physical = 1321 ; free virtual = 4736
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2329.906 ; gain = 841.316 ; free physical = 890 ; free virtual = 4314
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2329.906 ; gain = 841.316 ; free physical = 890 ; free virtual = 4314
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2329.906 ; gain = 841.316 ; free physical = 890 ; free virtual = 4314
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2329.906 ; gain = 841.316 ; free physical = 890 ; free virtual = 4314
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2329.906 ; gain = 841.316 ; free physical = 890 ; free virtual = 4314
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2329.906 ; gain = 841.316 ; free physical = 890 ; free virtual = 4314
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |FDS  |     1|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2329.906 ; gain = 841.316 ; free physical = 890 ; free virtual = 4314
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 2329.906 ; gain = 768.379 ; free physical = 888 ; free virtual = 4312
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 2329.914 ; gain = 841.316 ; free physical = 888 ; free virtual = 4312
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2329.914 ; gain = 0.000 ; free physical = 888 ; free virtual = 4312
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2329.914 ; gain = 0.000 ; free physical = 951 ; free virtual = 4384
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  FDS => FDSE: 1 instance 
+
+Synth Design complete | Checksum: c980eb07
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:45 ; elapsed = 00:00:43 . Memory (MB): peak = 2329.914 ; gain = 954.898 ; free physical = 951 ; free virtual = 4384
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1586.999; main = 1499.296; forked = 262.144
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3107.480; main = 2329.910; forked = 942.383
+INFO: [Common 17-1381] The checkpoint '/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.runs/mb_uart_ilmb_v10_0_synth_1/mb_uart_ilmb_v10_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP mb_uart_ilmb_v10_0, cache-ID = 6f30a3b769218602
+INFO: [Common 17-1381] The checkpoint '/home/carbon/kambadur/Projects/Vivado/mb_uart/mb_uart.runs/mb_uart_ilmb_v10_0_synth_1/mb_uart_ilmb_v10_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file mb_uart_ilmb_v10_0_utilization_synth.rpt -pb mb_uart_ilmb_v10_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Jan  2 14:32:51 2025...
