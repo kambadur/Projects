@@ -1,6 +1,6 @@
-set(CMAKE_HOST_SYSTEM "Linux-6.14.0-33-generic")
+set(CMAKE_HOST_SYSTEM "Linux-6.17.0-14-generic")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "6.14.0-33-generic")
+set(CMAKE_HOST_SYSTEM_VERSION "6.17.0-14-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
 include("/home/carbon/kambadur/Projects/Vivado/custom_axi_lite_slv_1/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/cortexa9_toolchain.cmake")
